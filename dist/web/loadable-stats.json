@@ -1,0 +1,915 @@
+{
+  "hash": "23544ef35a9f0b6d6f4e",
+  "version": "5.28.0",
+  "publicPath": "/dist/web/",
+  "outputPath": "/Users/mac/Desktop/work/ssrTemplate/dist/web/",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ],
+    "Comp": [
+      "Comp.css",
+      "Comp.js"
+    ],
+    "Comp2": [
+      "Comp2.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 4652627,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js.js",
+      "size": 191395,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_axios-hooks_es_index_js.js",
+      "size": 78291,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_axios-hooks_es_index_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "Comp.js",
+      "size": 28584,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "Comp"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "Comp"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "Comp2.js",
+      "size": 6307,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "Comp2"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "Comp2"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "Comp.css",
+      "size": 365,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [
+        "Comp"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "Comp"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7894,
+      "sizes": {
+        "javascript": 7865,
+        "css/mini-extract": 29
+      },
+      "names": [
+        "Comp"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "Comp.css",
+        "Comp.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "1d02e0d2bd4c36290b94",
+      "childrenByOrder": {},
+      "id": "Comp",
+      "siblings": [
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js"
+      ],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1321,
+      "sizes": {
+        "javascript": 1321
+      },
+      "names": [
+        "Comp2"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "Comp2.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "51e68d25432733244665",
+      "childrenByOrder": {},
+      "id": "Comp2",
+      "siblings": [
+        "vendors-node_modules_axios-hooks_es_index_js",
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js"
+      ],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1606229,
+      "sizes": {
+        "javascript": 1597531,
+        "runtime": 8698
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "7ac4732e4a91930c28f4",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "Comp",
+        "Comp2",
+        "vendors-node_modules_axios-hooks_es_index_js",
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 26031,
+      "sizes": {
+        "javascript": 26031
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "vendors-node_modules_axios-hooks_es_index_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "68ef0a7185d017b175d9",
+      "childrenByOrder": {},
+      "id": "vendors-node_modules_axios-hooks_es_index_js",
+      "siblings": [
+        "Comp2",
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js"
+      ],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 66825,
+      "sizes": {
+        "javascript": 66825
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "6b1d480c392b807c31f8",
+      "childrenByOrder": {},
+      "id": "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js",
+      "siblings": [
+        "Comp",
+        "Comp2",
+        "vendors-node_modules_axios-hooks_es_index_js"
+      ],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "Comp": {
+      "name": "Comp",
+      "chunks": [
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js",
+        "Comp"
+      ],
+      "assets": [
+        {
+          "name": "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js.js"
+        },
+        {
+          "name": "Comp.css"
+        },
+        {
+          "name": "Comp.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "Comp2": {
+      "name": "Comp2",
+      "chunks": [
+        "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js",
+        "vendors-node_modules_axios-hooks_es_index_js",
+        "Comp2"
+      ],
+      "assets": [
+        {
+          "name": "vendors-node_modules_axios_index_js-node_modules_regenerator-runtime_runtime_js.js"
+        },
+        {
+          "name": "vendors-node_modules_axios-hooks_es_index_js.js"
+        },
+        {
+          "name": "Comp2.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "mini-css-extract-plugin /Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+      "hash": "fc5bee069810f1166ed8",
+      "version": "5.28.0",
+      "builtAt": 1618399447516,
+      "publicPath": "/dist/web/",
+      "outputPath": "/Users/mac/Desktop/work/ssrTemplate/dist/web/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 5451,
+          "sizes": {
+            "javascript": 4514,
+            "runtime": 937
+          },
+          "names": [
+            "child"
+          ],
+          "idHints": [],
+          "runtime": [
+            "child"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "403853442c13149145df",
+          "childrenByOrder": {},
+          "id": "child",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 643,
+              "sizes": {
+                "javascript": 643
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+              "nameForCondition": "/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+              "issuerId": null,
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "loc": "child",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/api.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/runtime/api.js",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-92",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less"
+                },
+                {
+                  "moduleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "4:30-57",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less"
+                },
+                {
+                  "moduleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 2266,
+              "sizes": {
+                "javascript": 2266
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "nameForCondition": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "id": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "issuerId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "2:0-121",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less"
+                },
+                {
+                  "moduleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "4:58-95",
+                  "moduleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/client/comp.less"
+                },
+                {
+                  "moduleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleIdentifier": "/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "15:0-14",
+                  "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 15:0-14"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 267,
+              "sizes": {
+                "runtime": 267
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 308,
+              "sizes": {
+                "runtime": 308
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 274,
+              "sizes": {
+                "runtime": 274
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "child"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "child",
+              "request": "!!/Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ],
+  "generator": "loadable-components"
+}
