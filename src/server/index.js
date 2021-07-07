@@ -30,7 +30,7 @@ router.get('/test', async (ctx) => {
     ctx.body = {
         code: 200,
         data: {
-            a: 1111
+            a: '测试数据1'
         }
     }
 })
@@ -39,7 +39,7 @@ router.get('/test2', async (ctx) => {
     ctx.body = {
         code: 200,
         data: {
-            b: 1111
+            b: '测试数据2'
         }
     }
 })

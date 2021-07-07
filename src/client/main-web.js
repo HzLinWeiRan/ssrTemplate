@@ -9,5 +9,6 @@ import App from './App'
 
 loadableReady(() => {
     const root = document.getElementById('app')
+    console.log(window.__SSR_CACHE__)
     hydrate(<BrowserRouter><App rootStore={window.__SSR_CACHE__} /></BrowserRouter>, root)
 })

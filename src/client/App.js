@@ -7,15 +7,14 @@ function App({
     rootStore,
 }) {
     const [rootData, setRootData] = useState(rootStore)
- 
     return (
         <Context.Provider value={{
             data: rootData,
             clear: () => { setRootData(undefined) }
         }}>
             <div className="app">
-                <Link to="/comp">comp1</Link>
-                <Link to="/comp2">comp2</Link>
+                <Link to="/comp">页面1</Link>{' '}
+                <Link to="/comp2">页面2</Link>
                 <div>
                     {
                         routes.map(item => <Route key={item.path} {...item} />)

@@ -9,14 +9,13 @@ function Comp() {
     const [{ data, loading, error }, fetching] = useApi(fetchTest)
     const store = useContext(Context)
     useEffect(() => {
-        if (!store.data) fetching()
+        if (!store.data || store.data.length === 0) fetching()
     }, [])
     return (
         <div className="comp" onClick={() => {alert(1)}}>
-            comp1111111
-            <br />
+            <h1>页面1</h1>
             {loading ? 'loading' : 'loaded'}<br />
-            {(data && data.a) || (store.data && store.data[0].a)}
+            {(data && data.a) || (store.data && store.data[0] && store.data[0].a)}
         </div>
     )
 }

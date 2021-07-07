@@ -1,5 +1,5 @@
 {
-  "hash": "91b13ca731ac7069d660",
+  "hash": "00482248ec11b660442e",
   "version": "5.28.0",
   "publicPath": "/dist/node/",
   "outputPath": "/Users/mac/Desktop/work/ssrTemplate/dist/node/",
@@ -19,7 +19,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 33661,
+      "size": 33710,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -42,7 +42,7 @@
     {
       "type": "asset",
       "name": "Comp.js",
-      "size": 18621,
+      "size": 18823,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -65,7 +65,7 @@
     {
       "type": "asset",
       "name": "Comp2.js",
-      "size": 6082,
+      "size": 5479,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -113,9 +113,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3443,
+      "size": 3489,
       "sizes": {
-        "javascript": 3414,
+        "javascript": 3460,
         "css/mini-extract": 29
       },
       "names": [
@@ -130,7 +130,7 @@
         "Comp.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "b43dfa9511a8a324ce2f",
+      "hash": "0763f37a21e61f1c5157",
       "childrenByOrder": {},
       "id": "Comp",
       "siblings": [],
@@ -146,9 +146,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 1027,
+      "size": 898,
       "sizes": {
-        "javascript": 1027
+        "javascript": 898
       },
       "names": [
         "Comp2"
@@ -161,7 +161,7 @@
         "Comp2.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "a0a19ea017e364a62ba3",
+      "hash": "ca23dadf78a506a2df79",
       "childrenByOrder": {},
       "id": "Comp2",
       "siblings": [],
@@ -177,9 +177,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 8355,
+      "size": 8376,
       "sizes": {
-        "javascript": 3479,
+        "javascript": 3500,
         "runtime": 4876
       },
       "names": [
@@ -193,7 +193,7 @@
         "main.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "2a4e7241e66b8ce1e145",
+      "hash": "658c017fc47bbd966ad1",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -298,7 +298,7 @@
       "name": "mini-css-extract-plugin /Users/mac/Desktop/work/ssrTemplate/node_modules/css-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/node_modules/less-loader/dist/cjs.js!/Users/mac/Desktop/work/ssrTemplate/src/client/comp.less",
       "hash": "fc5bee069810f1166ed8",
       "version": "5.28.0",
-      "builtAt": 1618399446946,
+      "builtAt": 1625624381895,
       "publicPath": "/dist/node/",
       "outputPath": "/Users/mac/Desktop/work/ssrTemplate/dist/node/",
       "assetsByChunkName": {},

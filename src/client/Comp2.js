@@ -9,12 +9,8 @@ function Comp2() {
     // useEffect(() => {
     //     fetching()
     // }, [])
-    console.log('----comp2')
-    const [{ data2, loading2, error2 }, refetch2] = useAxios(
-        'http://localhost:3000/test2'
-    )
     return (
-        <div>comp2222</div>
+        <h1>页面2</h1>
     )
 }
 
